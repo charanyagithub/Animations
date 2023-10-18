@@ -1,0 +1,39 @@
+#div{
+    width:300px;
+    height: 300px;
+    background-color: brown;
+   /* border-bottom-style:dashed ;          
+    border-bottom-width:10px ;
+    border-bottom-color:black ;*/
+    border-bottom: dotted lightblue 10px;
+    border-top: dashed pink 10px;
+    border: dotted 15px red;
+   /* border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-top-right-radius: 100px;
+    border-top-left-radius: 100px;*/
+    border-radius:300px 0px 300px 0px ;
+    border-radius: 100%;
+    
+}
+table {
+    text-align: center;
+   border-collapse: collapse;
+}
+.css{
+    width:300px;
+    height: 300px;
+    background-color: chocolate;
+    border: solid 10px;
+    margin-left:200px ;
+    margin-top: 200px;
+
+}
+input{
+    margin-left: 100px;     /*padding*/
+    margin-top: 100px;
+   /* padding-left:15px ;
+    padding-bottom: 15px;*/
+    padding: 10px 40px;
+  
+}

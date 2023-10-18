@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+.parent{
+    width: 800px;
+    height: 800px;
+    border: 10px solid white;
+    border-radius: 50%;
+    position: relative;
+    left: 350px;
+    bottom: 50px;
+    background-image: url(../videoshtml/rainy\ good.gif);
+    background-repeat: no-repeat;
+    background-size: 800px 800px;
+    opacity: 1;
+}
+
+
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: violet;
+    position: absolute;
+    left: 270px;
+    bottom: 5px;
+    border-radius: 20px 20px 100% 100%;
+
+}
+.circle{
+    width: 180px;
+    height: 20px;
+    background-color: brown;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 180px;
+    left: 280px;
+    
+
+}
+.circle2{
+    width: 180px;
+    height: 20px;
+    background-color: green;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 250px;
+    left: 280px;
+    rotate: 95deg;
+}
+.common{
+   
+    background-color: green;
+    position: absolute;
+
+}
+
+.leave1{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    border-radius: 0px 300px 0px 300px;
+    bottom: 180px;
+    left: 260px;
+   
+    
+}
+.leave2{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    border-radius: 300px 0px 300px 0px;
+    bottom: 180px;
+    left: 360px;
+
+}
+.leave3{
+    width: 10px;
+    height: 230px;
+    background-color: green;
+    bottom: 180px;
+    left: 360px;
+}
+.leave4{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    border-radius: 0px 300px 0px 300px;
+    bottom: 290px;
+    left: 260px;
+   
+}
+
+.leave5{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    border-radius: 300px 0px 300px 0px;
+    bottom: 280px;
+    left: 360px;
+}
+
+ .same{
+   
+    
+    background-color:white ;
+    rotate: 45deg;
+    border-radius: 0px 100px 0px 100px;
+    position: absolute;
+    left: 310px;
+    bottom: 320px;
+    transition:all 05s;
+}
+.parent:hover .flower1{
+    width:100px ;
+    height: 100px;
+    rotate: 30deg;
+   left: 350px;
+   bottom: 330px;
+}
+.parent:hover .flower2{
+    width:100px ;
+    height: 100px;
+    rotate: 25deg;
+   left: 370px;
+   bottom: 360px;
+   rotate: -25deg;
+}
+.parent:hover .flower3{
+    width:100px ;
+    height: 100px;
+    rotate: 25deg;
+   left: 390px;
+   bottom: 400px;
+   rotate: -40deg;
+}
+.parent:hover .flower4{
+    width:100px ;
+    height: 100px;
+    rotate: 25deg;
+   left: 370px;
+   bottom: 450px;
+   rotate: -80deg;
+}
+.parent:hover.flower5{
+    width:100px ;
+    height: 100px;
+    background-color:red;
+    rotate: 45deg;
+    border-radius: 0px 100px 0px 100px;
+    left: 310px;
+    bottom: 320px;
+
+}
+
+.parent:hover .flower6{
+    width:100px ;
+    height: 100px;
+    rotate: 25deg;
+   left: 270px;
+   bottom: 450px;
+   rotate: 5deg;
+}
+   .parent:hover .flower7{
+    width:100px ;
+    height: 100px;
+    rotate: 25deg;
+   left: 320px;
+   bottom: 480px;
+   rotate: 45deg;
+}
+.parent:hover .flower8{
+    width:100px ;
+    height: 100px;
+    rotate: 25deg;
+   left: 250px;
+   bottom: 400px;
+   rotate: -30deg;
+}
+.parent:hover .flower9{
+    width:100px ;
+    height: 100px;
+    rotate: 25deg;
+   left: 250px;
+   bottom: 360px;
+   rotate: -70deg;
+}
+.parent:hover .flower10{
+    width:100px ;
+    height: 100px;
+    rotate: 25deg;
+   left: 280px;
+   bottom: 325px;
+   rotate: -110deg;
+}
+.round{
+    width: 80px;
+    height: 80px;
+    background-color: yellow;
+    position: absolute;
+    border-radius: 50%;
+    left: 320px;
+    bottom: 405px;
+    font-size: 50px;
+    text-align: center;
+}
+
+
+.parent:hover .round1{
+    width: 80px;
+    height: 80px;
+    background-color: yellow;
+    position: absolute;
+    border-radius: 50%;
+    left: 320px;
+    bottom: 405px;
+    font-size: 50px;
+    text-align: center;
+
+
+}
+
+.parent:hover .moon1{
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    border-radius:50% ;
+    position: absolute;
+    left: 500px;
+    top: 100px;
+    font-size: 57px;
+    transition: all 20 sec;
+}
+body{
+    background-color: black;
+    
+}
+.cloud
+{
+    width: 100px;
+    height: 50px;
+   
+    border-radius: 50%;
+    position: absolute;
+}
+.cloud1{
+   
+   
+    bottom: 300px;
+    left: 200px;
+}
+.parent:hover .rays{
+    width: 10px;
+    height: 270px;
+    background-color: white;
+    position: absolute;
+    opacity: 0.2;
+    left: 420px;
+    bottom: 400px;
+    rotate: 40deg;
+}
+.all{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+    position: relative;
+    background-image: url(../videoshtml/moon\ flower.jpg);
+    background-size: 100px 100px;
+    box-shadow: 3px 3px 10px white;
+    animation: animation 10s 1s infinite;    
+}
+.round0{
+    left: 0px;
+    top: 20px;
+
+}
+
+.round2{
+    left: 100px;
+    bottom: 120px;
+
+}
+
+.round3{
+    left: 200px;
+    bottom: 200px;
+   
+}
+
+
+
+
+
+
+
+.tub{
+    width: 200px;
+    height: 200px;
+   background-color: black;
+   border-radius: 50%;
+   
+    position: relative;
+    bottom: 300px;
+    left: 60px;
+    background-image: url(../videoshtml/moon.gif);
+    background-size: 200px 200px;
+    border-radius: 50%;
+}
+.parent:hover.butter{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    border-radius: 50%;
+    opacity: 0.1;
+background-image: url(../videoshtml/butterfly.gif);
+background-size: 200px 200px;
+}
+.fixed{
+    width:45px;
+    height: 200px;
+    background-color:  green;
+    position: fixed;
+    top: 300px;
+    left: 1480px;  
+    
+}
+
+
+
+
+    </style>
+</head>
+<body >
+    <h1 style="color: white;text-decoration: underline red 1px;">MOON  <span style="background-color: red;">FLOWER</span>🌼🌝</h1>
+    <p style="color: violet;">Ipomoea alba, sometimes called the tropical white morning-glory or moonflower or moon vine, is a species of night-blooming morning glory, native to tropical and subtropical regions of North and South America, from Argentina to northern Mexico, Arizona, Florida[2] and the West Indies.[3] Though formerly classified as genus Calonyction, species aculeatum, it is now properly assigned to genus Ipomoea, subgenus Quamoclit, section Calonyction.[4]</p>
+    <div class="cloud1"><marquee behavior="" direction="left"><img src="../videoshtml/cloud white.webp" alt=""width="300px"height="200px"style="border-radius:50%;opacity:0.6;"></marquee>
+    <div class="cloud2"><marquee behavior="" direction="right"><img src="../videoshtml/cloud white.webp" alt=""width="300px"height="200px"style="border-radius:50%;opacity:0.6;"></marquee></div></div>
+    
+   
+    <div class="parent">
+    <img src="../videoshtml/butterfly.gif" alt=""width="180px"height="180px"style="margin-left:80px;margin-top:200px;border-radius:50%;opacity: 0.6;"class="butter">
+       
+       
+        <div class="box">
+            <div style="width: 20px;height: 200px;background-color: red;rotate: 90deg;margin-left: 90px;margin-top: 10px;">
+         </div>
+           
+        </div>
+       
+        <div class="inside"></div>
+        <div class="circle"></div>
+        <div class="common leave1"></div>
+        <div class="common leave2"></div>
+        <div class="common leave3"></div>
+        <div class="common leave4"></div>
+        <div class="common leave5"></div>
+        <div class="flower"></div>
+       <div class="same flower1"></div>
+       <div class="same flower2"></div>
+       <div class="same flower3"></div>
+       <div class="same flower4"></div>
+       <div class="same flower5"></div>
+       <div class="same flower6"></div>
+       <div class="same flower7"></div>
+       <div class="same flower8"></div>
+       <div class="same flower9"></div>
+       <div class="same flower10"></div>
+      <div class="round">😔</div>
+      <div class="round1"style="margin-right:100px;">😀</div>
+      <div class="both moon"></div>
+    <div class="both moon1"></div>
+      <div class="cloud"></div>
+      <div class="rays"></div>
+    </div>
+    <table><tr><td>
+<table border="2"cellspacing="0px"cellpadding="20px"style="color:white;"><tr style="color: black;background-color: silver;"><th colspan="2">Moonflower Quick Facts</th></tr>
+<tr style="color: white;" ><td>Name</td>
+<td>Moon Flower</td></tr>
+<tr><td>Scientific Name</td>
+<td>Ipomoea alba</td></tr>
+<tr><td>Origin</td>
+<td>Tropical and subtropical regions of North America, Central America , the Caribbean and South America</td></tr>
+<tr><td>Colors</td>
+<td>Initially green turning to dark brown or blackish in color as they mature</td></tr>
+<tr><td>Shapes</td>
+<td>Fleshy capsule, measuring 2 -3 cm long with a pointed tip</td></tr>
+<tr><td>Health benefits</td>
+<td>Beneficial for treating snakebite, filariasis, constipation, boils, wounds, headache and helps in losing weight</td></tr></table>
+</td>
+<td><img src="../videoshtml/moon flower.jpg" alt=""width="500px"height="500px"style="border-radius:50%;"></td>
+
+
+</tr></table>
+<p style="color: green;text-indent: 100px;text-align: justify;">Ipomoea Alba, sometimes called the tropical white morning-glory or moonflower or moon vine, is a species of night-blooming morning glory belonging to Convolvulaceae (Morning-glory family). Though previously classified as genus Calonyction, species aculeatum, it is now properly assigned to genus Ipomoea, subgenus Quamoclit and section Calonyction. The plant is native to tropical and subtropical regions of North America (i.e. south-eastern USA and Mexico), Central America (i.e. Belize, Costa Rica, Guatemala, Honduras, Nicaragua and Panama), the Caribbean (i.e. Bahamas, Cuba, the Dominican Republic and Haiti) and South America (i.e. French Guiana, Guyana, Surinam, Venezuela, Brazil, Bolivia, Colombia and Argentina). Apart from moonflower it is also known as evening glory,  giant moonflower, moonflower vine, tropical white morning glory, white morning glory, 
+    moon flower, moon vine, white-flowered morning glory, Good night flower and prickly Ipomoea.</p>
+    <p style="color: yellow;text-indent: 100px;text-align: justify;" >Genus name comes from the Greek words ips meaning “worm” and homoios meaning “resembling”, in possible reference to the sprawling underground roots of plants in this genus. On the other hand, some experts suggest the genus name is in reference to the worm-like twining plant habit. Specific epithet Alba refers to the white color of the flowers. It derives from the Latin word album for a writing tablet now used to mean white in reference to the tablets historically being white. The common names of Moonflower or Lady-of-the-night referring to the flowers habit of opening at night, it attracts night pollinating moths to the fragrant flowers and their being round in shape like a full moon. The plant is occasionally harvested from the wild for local use as a food and medicine. It is often grown as an ornamental, where it quickly 
+        can provide a temporary screen or barrier.</p>
+        <fieldset><legend style="color: white;font-size: 30px;">Plant Description</legend>
+            <p style="background-color: chocolate;opacity: 0.8;color: white;text-align: justify;border-radius: 10px 10px;">Moonflower is a short-lived, fast-growing, old-fashioned, annual or perennial herbaceous liana that normally grows about 5–30 m tall with twining stems. The plant is found growing in watercourses, riparian areas, moist forests, wet forests, urban bush land and disturbed areas (e.g. in parks, along roadsides, and along railway lines) in the sub-tropical and tropical regions. It grows in moist habitats on sandy and loamy well-drained soil.  Its stems are hairless (i.e. glabrous), 
+                but the aerial climbing stems sometimes have numerous small projections.</p>
+        
+        </fieldset>
+        <fieldset style="border: 1px solid black;"><legend style="color: white;font-size: 30px;">Flowers</legend>
+            <p style="background-color: violet;opacity: 0.8;color: black;text-align: justify;border-radius: 10px 10px;">The large trumpet-shaped flowers have a very long and narrow greenish-white floral tube that is 7- 15 cm long and five large white spreading lobes (10-15 cm wide). They are borne in several-flowered clusters, or occasionally singly, in the leaf forks. These flowers open at night, hence the common name “moonflower”, and usually wither by early the next morning. They have five small sepals that are 5-20 mm long with pointed tips and are borne on 7-15 mm long stalks. Each flower has five whitish-coloured stamens and a style that are exerted from the end of the floral tube. The flowers also tend to remain open longer during cool temperatures – which may also cause the 
+                segments to snag or tear as they open. Flowering occurs during summer and autumn.</p>
+        </fieldset>
+        <div class="all round0"></div>
+        <div class="all round2"></div>
+        <div class="all round3"></div>
+        
+        
+        <table><tr style="color: white;"><td>
+        <div class="tub"></div></td>
+    <td><img src="../videoshtml/moon and flower.jpg" alt=""width="300px"height="300px"style="border-radius:50%;position:relative;left:900px;bottom:350px;"></td></tr></table>
+    <th>How To grow Moon Flowers-Night Blooming Plants</th>
+    <img src="../videoshtml/moon blooming.gif" alt=""width="300px"height="300px"style="border-radius:50%;position: relative;left
+    :200px;bottom:650px;"> 
+    <div class="fixed"><a href=""><img src="C:\WEB TECHNOLOGY\videoshtml\instagram.jpeg" alt=""width="35px"height="35px"></a>
+        <a href=""><img src="../videoshtml/Facebook-logo.jpg" alt=""width="35px"height="35px"></a>
+        <a href=""><img src="../videoshtml/youtube.jpeg" alt=""width="35px"height="35px"></a>
+        <a href=""><img src="../videoshtml/moon.gif" alt=""width="35px"height="35px"></a>
+        <a href=""><img src="../videoshtml/telegram.jpeg" alt=""width="35px"height="35px"></a>
+
+    </div>
+    <h1 style="background-color: white;width: 1520px;height: 300px;position: relative;bottom: 500px;">Moon Flower Care</h1>
+    <p style="text-align: justify;color: green;position: relative;bottom: 750px;">Moonflower vines require fairly simple maintenance with regular watering and feeding, and they rarely suffer from serious pest or disease problems. Because they have a climbing growth habit, it’s ideal to provide them with a trellis or other support structure they can grow around. They also can be allowed to spread naturally as a ground cover or grown in hanging baskets and containers. If possible, plant them near a deck or bedroom window where you can enjoy their sweet fragrance at night. 
+
+        If you don’t want the vines to reseed in your garden, remove the spent flowers before they can drop seeds. This deadheading process also can promote further blooming on the vines. When growing moonflower as an annual, most gardeners prefer to start new plants the following year rather than trying to overwinter their plants; the vines can be difficult to maintain indoors. When grown year-round outdoors as a perennial, the vines can be pruned back and shaped as needed in the fall. Thin the stems to improve airflow around the plant and open it up to sunlight.
+        
+        In very warm regions of southeast and south-central U.S. and in Hawaii, this plant is considered invasive and should be grown with caution against its escape into natural areas. Such caution is not needed in cooler regions where the plant dies out yearly.
+        
+        </p>
+        <h style="color: red;font-size: 30px;position: relative;bottom: 750px;">Types Of Moon Flower</h>
+        <p style="color: black;font-size: 15px;position: relative;bottom: 750px;">In general, Ipomoea alba is sold without a variety designation. Some similar plants that also use the common name moonflower <br>
+
+            Ipomoea leptophylla: This is an erect, flowering plant that sometimes goes by the name bush moonflower or bush morning <br>
+            Ipomoea violacea: This plant is commonly known as the beach moonflower or sea moonflower, and its white flowers also open at night.</p>
+            
+
+    
+    
+    
+   
+    
+
+
+
+      
+       
+    
+</body>
+</html>

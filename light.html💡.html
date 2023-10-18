@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            font-family: sans-serif;
+            align-items: center;
+            min-height: 100vh;
+            background:#000;
+        }
+       /* div{
+            position :absolute;
+           left: 300px;
+           top: 300px;
+           font-size: 100px;
+           border-radius: 10px 10px;
+           border: 10px ;
+           border-style: solid;
+          border-color: blue;
+          border-left: none;
+          border-right: none;
+         
+           animation: animate1 infinite;
+        
+           animation-duration: 10s;
+           box-shadow: 10px 10px 10px white,10px -10px 10px white,-10px 10px 10px white,-10px -10px 10px white;
+           
+         
+
+        }*/
+        h2{
+            font-size: 6em;
+            color: #333;
+            font-weight: 500;
+        }
+        @keyframes animate1{
+            from{
+        border-color: blue;
+          border-left: none;
+          border-right: none;
+
+            }
+            to{
+                border-color: blue;
+          border-left: none;
+          border-right: none;
+         
+
+            }
+        }
+
+         h2 span:nth-child(1){
+            animation-delay: 0s;
+           
+        }
+        h2 span{
+            animation: animate 1s linear infinite;
+           
+        }
+        h2 span:nth-child(2){
+           
+            animation-delay: 0.2s;
+        }
+        h2 span:nth-child(3){
+           
+            animation-delay: 0.4s;
+        }
+        h2 span:nth-child(4){
+            
+            animation-delay: 0.6s;
+        }
+        h2 span:nth-child(5){
+            
+            animation-delay: 0.8s;
+        }
+       
+        
+       
+        @keyframes animate{
+            0%{
+            
+           color: #333;
+           box-shadow: none;
+           
+            }
+            100%{
+                
+                color: white;
+               
+               text-shadow: 0 0 10px #fff,
+                            0 0 20px #fff,
+                           0 0 40px #fff,
+                           0 0 80px #fff,
+                           0 0 120px #fff,
+                           0 0 160px #fff;
+                    
+            }
+        }
+        body{
+            background-color: black;
+        }
+        .round{
+           
+           background-color: black;
+            position: absolute;
+            left: 1100px;
+            animation: animate2;
+            animation-duration: 5s;
+            border: 10px green solid;
+            color: white;
+
+        }
+        @keyframes animate2{
+            from{
+                width:550px ;
+            height: 120px;
+                left: 500px;
+
+            }
+            to{
+                width:550px ;
+            height: 120px;
+                left: 1600px;
+                border: 10px green solid;
+               
+                box-shadow: 10px 10px 10px skyblue,10px -10px 10px skyblue,-10px 10px 10px skyblue,-10px -10px 10px skyblue;
+               
+
+            }
+        }
+        
+
+
+
+
+
+    </style>
+</head>
+<body>
+   
+    <h2>
+
+       
+      <span>H</span>
+      <span>E</span>
+      <span>L</span>
+      <span>L</span>
+      <span>0</span>
+      <span>🤓</span></h2>
+
+     
+   
+    <div class="round"></div>
+    
+</body>
+</html>
